@@ -48,3 +48,15 @@ body {
   color: black;
   background-color: white;
 }
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.2rem;
+}
+.clockPos {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: rgb(255, 205, 112);
+  z-index: -1;
+  user-select: none;
+}
