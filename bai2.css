@@ -3,8 +3,7 @@ h1 {
   font-family: "Oswald", sans-serif;
   color: #1b1b1b;
   user-select: none;
-  animation: 'fadeIn' 1s;
-  -webkit-animation: 'fadeIn' 1s;
+  margin-top: 50px;
 }
 @keyframes fadeIn {
   0% { opacity: 0;}
@@ -27,6 +26,8 @@ body {
   background-position: 50% 60%;
   font-family: sans-serif;
   text-align: center;
+  animation: 'fadeIn' 1s;
+  -webkit-animation: 'fadeIn' 1s;
 }
 .databutton {
   border: 2px solid black;
