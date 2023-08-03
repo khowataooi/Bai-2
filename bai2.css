@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap");
+h1 {
+  font-family: "Oswald", sans-serif;
+  color: #1b1b1b;
+  user-select: none;
+  animation: 'fadeIn' 1s;
+  -webkit-animation: 'fadeIn' 1s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0;}
+  100% { opacity: 1;}
+}
+h2 {
+  color: rgb(233, 54, 0);
+  /* font-size: 200%; */
+  user-select: none;
+}
+html {
+  margin: 0px;
+  height: 100%;
+}
+body {
+  margin: 0px;
+  background-image: url("background2.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 60%;
+  font-family: sans-serif;
+  text-align: center;
+}
+.databutton {
+  border: 2px solid black;
+  background-color: transparent;
+  transition-duration: 0.3s;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 20%;
+  user-select: none;
+}
+.databutton:hover {
+  background-color: black;
+  color: white;
+}
+.databutton:active {
+  color: black;
+  background-color: white;
+}
